@@ -1,365 +1,368 @@
 * {
-	margin: 0;
-	padding: 0;
-	font: normal 12px 'Dotum';
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family:'Dotum';
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-	border: 0;
-	vertical-align: top;
+    border: 0;
+    vertical-align: top;
 }
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 body {
-	width: 100%;
+    width: 100%;
 }
 
 .narrow {
-	width: 980px;
-	margin: 0 auto;
+    width: 980px;
+    margin: 0 auto;
 }
 
 /* utility classes */
 .m-l-10 {
-	margin-left: 10px;
+    margin-left: 10px;
 }
 
 .m-b-5 {
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .m-t-5 {
-	margin-top: 5px;
+    margin-top: 5px;
 }
 
 .m-b-0 {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .hidden {
-	display: none;
+    display: none;
 }
 
 /* 헤더 */
 #main_header {
-	position: relative;
-	height: 75px;
+    position: relative;
+    height: 75px;
 }
 
 #main_header > h1.logo {
-	position: absolute;
-	left: 15px;
-	top: 10px;
+    position: absolute;
+    left: 15px;
+    top: 10px;
 }
 
 #main_header > div.login_menu {
-	position: absolute;
-	top: 10px;
-	right: 0px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
 }
 
 /* 사이드 */
 body {
-	position: relative;
+    position: relative;
 }
 
 #global_aside {
-	position: absolute;
-	left: 1070px;
-	top: 75px;
-	width: 90px;
+    position: absolute;
+    left: 1070px;
+    top: 75px;
+    width: 90px;
 }
 
 #global_aside > a {
-	display: block;
-	margin-bottom: 5px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 /* 네비게이션_위 */
 #top_gnb {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 #top_gnb > div.menu {
-	float: left;
-	width: 140px;
-	height: 50px;
-	background: url('Images/gnb_top.png');
+    float: left;
+    width: 140px;
+    height: 50px;
+    background: url('Images/gnb_top.png');
 }
 
 #top_gnb > div.item_1 {
-	background-position: 0px 0px;
+    background-position: 0px 0px;
 }
 
 #top_gnb > div.item_2 {
-	background-position: 0px -50px;
+    background-position: 0px -50px;
 }
 
 #top_gnb > div.item_3 {
-	background-position: 0px -100px;
+    background-position: 0px -100px;
 }
 
 #top_gnb > div.item_4 {
-	background-position: 0px -150px;
+    background-position: 0px -150px;
 }
 
 #top_gnb > div.item_5 {
-	background-position: 0px -200px;
+    background-position: 0px -200px;
 }
 
 #top_gnb > div.item_6 {
-	background-position: 0px -250px;
+    background-position: 0px -250px;
 }
 
 #top_gnb > div.item_7 {
-	background-position: 0px -300px;
+    background-position: 0px -300px;
 }
 
 #top_gnb > div.item_1:hover {
-	background-position: 0px -350px;
+    background-position: 0px -350px;
 }
 
 #top_gnb > div.item_2:hover {
-	background-position: 0px -400px;
+    background-position: 0px -400px;
 }
 
 #top_gnb > div.item_3:hover {
-	background-position: 0px -450px;
+    background-position: 0px -450px;
 }
 
 #top_gnb > div.item_4:hover {
-	background-position: 0px -500px;
+    background-position: 0px -500px;
 }
 
 #top_gnb > div.item_5:hover {
-	background-position: 0px -550px;
+    background-position: 0px -550px;
 }
 
 #top_gnb > div.item_6:hover {
-	background-position: 0px -600px;
+    background-position: 0px -600px;
 }
 
 #top_gnb > div.item_7:hover {
-	background-position: 0px -650px;
+    background-position: 0px -650px;
 }
 
 #top_gnb > div.item_1.active {
-	background-position: 0px -350px;
+    background-position: 0px -350px;
 }
 
 #top_gnb > div.item_2.active {
-	background-position: 0px -400px;
+    background-position: 0px -400px;
 }
 
 #top_gnb > div.item_3.active {
-	background-position: 0px -450px;
+    background-position: 0px -450px;
 }
 
 #top_gnb > div.item_4.active {
-	background-position: 0px -500px;
+    background-position: 0px -500px;
 }
 
 #top_gnb > div.item_5.active {
-	background-position: 0px -550px;
+    background-position: 0px -550px;
 }
 
 #top_gnb > div.item_6.active {
-	background-position: 0px -600px;
+    background-position: 0px -600px;
 }
 
 #top_gnb > div.item_7.active {
-	background-position: 0px -650px;
+    background-position: 0px -650px;
 }
 
 /* 네비게이션_아래 */
 #bottom_gnb {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 #bottom_gnb > div.menu {
-	float: left;
-	width: 98px;
-	height: 80px;
-	background: url('Images/gnb_sub.png');
+    float: left;
+    width: 98px;
+    height: 80px;
+    background: url('Images/gnb_sub.png');
 }
 
 #bottom_gnb > div.item_1 {
-	background-position: 0px 0px;
+    background-position: 0px 0px;
 }
 
 #bottom_gnb > div.item_2 {
-	background-position: 0px -80px;
+    background-position: 0px -80px;
 }
 
 #bottom_gnb > div.item_3 {
-	background-position: 0px -160px;
+    background-position: 0px -160px;
 }
 
 #bottom_gnb > div.item_4 {
-	background-position: 0px -240px;
+    background-position: 0px -240px;
 }
 
 #bottom_gnb > div.item_5 {
-	background-position: 0px -320px;
+    background-position: 0px -320px;
 }
 
 #bottom_gnb > div.item_6 {
-	background-position: 0px -400px;
+    background-position: 0px -400px;
 }
 
 #bottom_gnb > div.item_7 {
-	background-position: 0px -480px;
+    background-position: 0px -480px;
 }
 
 #bottom_gnb > div.item_8 {
-	background-position: 0px -560px;
+    background-position: 0px -560px;
 }
 
 #bottom_gnb > div.item_9 {
-	background-position: 0px -640px;
+    background-position: 0px -640px;
 }
 
 #bottom_gnb > div.item_10 {
-	background-position: 0px -720px;
+    background-position: 0px -720px;
 }
 
 #bottom_gnb > div.item_1:hover {
-	background-position: 0px -800px;
+    background-position: 0px -800px;
 }
 
 #bottom_gnb > div.item_2:hover {
-	background-position: 0px -880px;
+    background-position: 0px -880px;
 }
 
 #bottom_gnb > div.item_3:hover {
-	background-position: 0px -960px;
+    background-position: 0px -960px;
 }
 
 #bottom_gnb > div.item_4:hover {
-	background-position: 0px -1040px;
+    background-position: 0px -1040px;
 }
 
 #bottom_gnb > div.item_5:hover {
-	background-position: 0px -1120px;
+    background-position: 0px -1120px;
 }
 
 #bottom_gnb > div.item_6:hover {
-	background-position: 0px -1200px;
+    background-position: 0px -1200px;
 }
 
 #bottom_gnb > div.item_7:hover {
-	background-position: 0px -1280px;
+    background-position: 0px -1280px;
 }
 
 #bottom_gnb > div.item_8:hover {
-	background-position: 0px -1360px;
+    background-position: 0px -1360px;
 }
 
 #bottom_gnb > div.item_9:hover {
-	background-position: 0px -1440px;
+    background-position: 0px -1440px;
 }
 
 #bottom_gnb > div.item_10:hover {
-	background-position: 0px -1520px;
+    background-position: 0px -1520px;
 }
 
 #bottom_gnb > div.item_1.active {
-	background-position: 0px -800px;
+    background-position: 0px -800px;
 }
 
 #bottom_gnb > div.item_2.active {
-	background-position: 0px -880px;
+    background-position: 0px -880px;
 }
 
 #bottom_gnb > div.item_3.active {
-	background-position: 0px -960px;
+    background-position: 0px -960px;
 }
 
 #bottom_gnb > div.item_4.active {
-	background-position: 0px -1040px;
+    background-position: 0px -1040px;
 }
 
 #bottom_gnb > div.item_5.active {
-	background-position: 0px -1120px;
+    background-position: 0px -1120px;
 }
 
 #bottom_gnb > div.item_6.active {
-	background-position: 0px -1200px;
+    background-position: 0px -1200px;
 }
 
 #bottom_gnb > div.item_7.active {
-	background-position: 0px -1280px;
+    background-position: 0px -1280px;
 }
 
 #bottom_gnb > div.item_8.active {
-	background-position: 0px -1360px;
+    background-position: 0px -1360px;
 }
 
 #bottom_gnb > div.item_9.active {
-	background-position: 0px -1440px;
+    background-position: 0px -1440px;
 }
 
 #bottom_gnb > div.item_10.active {
-	background-position: 0px -1520px;
+    background-position: 0px -1520px;
 }
 
 /* 목록 */
 #detail_list {
-	overflow: hidden;
-	padding: 10px;
-	background: #3B414D;
-	padding-bottom: 15px;
+    overflow: hidden;
+    padding: 10px;
+    background: #3B414D;
+    padding-bottom: 15px;
 }
 
 #detail_list > ul {
-	float: left;
-	width: 192px;
+    float: left;
+    width: 192px;
 }
 
 #detail_list > ul > li {
-	height: 13px;
-	margin-top: 5px;
-	padding: 3px 5px;
-	color: #F3F3F3;
+    height: 13px;
+    margin-top: 5px;
+    padding: 3px 5px;
+    color: #F3F3F3;
 
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #detail_list > ul > li.header {
-	padding-left: 15px;
+    padding-left: 15px;
 }
 
 #detail_list > ul > li.header > p {
-	font-weight: bold;
-	color: #48C5FF;
+    font-weight: bold;
+    color: #48C5FF;
 }
 
 /* 메인 배너 */
 .main-banner {
-	position: relative;
-	left: 50%;
-	margin-left: -980px;
+    position: relative;
+    left: 50%;
+    margin-left: -980px;
 }
 
 /* 매인 탭 컨트롤 */
 ul.prod-tab {
-	position: absolute;
+    position: absolute;
     top: 520px;
     left: 50%;
     margin-left: 240px;
 }
+
 li.tab-item {
     position: relative;
 }
+
 span.mask {
     position: absolute;
     top: 0;
@@ -367,87 +370,102 @@ span.mask {
     right: 0;
     bottom: 0;
 }
+
 span.mask:hover {
     border: 2px solid dodgerblue;
 }
 
 /* 본문 */
 #content {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 #product_section {
-	overflow: hidden;
-	margin-top: 5px;
+    overflow: hidden;
+    margin-top: 5px;
 }
 
 #product_section > #product_article {
-	float: left;
-	width: 100%;
+    float: left;
+    width: 100%;
 }
 
 #product_section > #product_aside {
-	float: right;
-	padding-bottom: 5px;
-	width: 170px;
+    float: right;
+    padding-bottom: 5px;
+    width: 170px;
 }
 
 #product_section > #product_article > img {
-	display: block;
+    display: block;
 }
 
 /* 푸터 */
-#main_footer {
-	height: 40px;
-	padding: 20px 10px;
-	margin-bottom: 10px;
-	border-radius: 5px;
-	text-align: center;
-	border-top: 1px solid #ccc;
+
+#main_footer * {
+    margin-top: 20px;
+    color: #555;
 }
 
-#main_footer > h1 {
-	font-size: 1.2em;
-	color: #666;
+.footer-layer1 {
+    text-decoration: none;
 }
 
-#main_footer > h2 {
-	font-size: 1.2em;
-	font-weight: bold;
+
+.footer-layer1 {
+    text-align: center;
+    border-top: 2px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+    padding-top: 20px;
+    white-space: nowrap;
 }
+
+.footer-layer1 > a {padding:0 5px;}
+
+.footer-layer1 > a::before {
+    border-left: 1px solid black;
+    content: "";
+    padding-left: 10px;
+}
+
+.footer-layer1 > a:first-child::before {
+    border-left: 0;
+}
+
 
 /* 메인 상품 이미지 스타일 */
 .prod-row {
-	overflow: hidden;
-	margin-bottom: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .prod-item {
-	float: left;
-	border: 1px solid #ddd;
-	position: relative;
+    float: left;
+    border: 1px solid #ddd;
+    position: relative;
 }
 
 article#product_article {
-	border: 1px solid #ddd;
-	padding: 15px;
+    border: 1px solid #ddd;
+    padding: 15px;
 }
 
 .prod-buy {
-	background: url(Images/mainBtns.png);
-	background-position: 0px 0px;
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	left: 20px;
-	bottom: 20px;
+    background: url(Images/mainBtns.png);
+    background-position: 0px 0px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
 }
 
 .prod-item:hover {
-	border: 1px solid #0096e4;
+    border: 1px solid #0096e4;
 }
 
 .prod-item:hover > .prod-buy {
-	background-position: -40px 0px;
-	width: 100px;
+    background-position: -40px 0px;
+    width: 100px;
 }
